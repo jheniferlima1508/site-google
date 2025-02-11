@@ -6,4 +6,18 @@ a{
   text-decoration: none;  /*decoração do texto*/
    color: #1f1f1f;
    font-size: 13px; /*tamanho fonte*/
+   font-family: sans-serif;/*tipo/familia*/
 }
+.botao-login{
+    background-color: #1a73e8;/*cor plano de fundo*/
+    color: white;
+    padding: 13px 12px;/*espaçamento interno*/
+    font-weight: 500;
+    border-radius: 40px ;/*raio da borda*/
+
+}
+.icone-produtos{
+    width: 24px;/*largura*/
+   fill: #444746; /*preenchimento*/
+}
+
