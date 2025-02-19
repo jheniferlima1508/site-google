@@ -28,15 +28,28 @@ a{
    fill: #444746; /*cor preenchimento*/
 }
 
-footer{ /*seletor da tag footer/rodapé*/
+footer{ /*seletor da tag footer/rodape*/
    background-color: #f2f2f2; /*cor de fundo*/
-
-
 }
 
-.caixa-rodapé{
+.caixa-rodape{
+   display: flex;
    padding: 15px 30px;
+   justify-content: space-between;
 }
-.caixarodapé--borda{
+.caixarodape--borda{
    border-bottom: 1px solid #dadce0;
+}
+
+.caixa-links{
+   display: flex;
+   gap: 30px; /*espaçamento entre os itens da div caixa-links*/
+}
+
+header{ /*cabeçalho*/
+   display: flex;
+   justify-content: flex-end; /*Horizontal,a direita no espaço disponível*/
+   align-items: center; /*itens alinhados ao centro do espaço disponível*/
+   gap: 15px; /*espaçamento entre os elementos dentro do header */
+   padding: 10px 14px; /*espaçamento ao redor do header*/
 }
