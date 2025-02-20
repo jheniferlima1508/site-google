@@ -4,34 +4,54 @@
    font-family: Arial, Helvetica, sans-serif;
    font-size: 13px; 
 }
-
 img{ /*estilo tag imagem*/
    height: 92px; /*Altura*/
 }
-
 a{ 
   text-decoration: none;  /*decoração do texto*/
    color: #1f1f1f;  /*cor do texto*/
    font-size: 13px; /*tamanho fonte*/
    font-family: sans-serif; /*tipo/familia da fonte*/
 }
-.botao-login{
-    background-color: #1a73e8;/*cor plano de fundo*/
-    color: white; /*cor do texto*/
-    padding: 13px 12px;/*espaçamento interno*/
-    font-weight: 500; /*peso da fonte*/
-    border-radius: 40px ;/*raio da borda(curvatura)*/
 
+/*MAIN PRINCIPAL*/
+.caixa-pesquisa{
+   display: flex;
+   width: 583px; /*Largura*/
+   padding: 10px 14px; /*espaçamento interno*/
+   align-items: center; /*alinhando os itens ao centro*/
+   gap: 13px; /*espaçamento entre os elementos filho*/
+   border: 1px solid #dfe1e5; /*borda*/
+   border-radius: 100px; /*raio da borda*/
 }
-.icone-produtos{
-    width: 24px;/*largura*/
-   fill: #444746; /*cor preenchimento*/
+.caixa-icones{
+   display: flex;
+   align-items: center; /*alinhado na vertical*/
+   gap: 16px; /*espaçamento entre os itens*/
+}
+.input-pesquisa{
+   width: 100%; /*ocupar 100% da largura disponivel*/
+   border: none; /*borda nenhuma*/
+   outline: none; /*sombreamento quando selecionaqdo nenhum*/
+}
+.icone-lupa{
+   width: 20px; /*Largura*/
+   fill: #9aa0a6; /*Preenchimento*/
+}
+.icone-teclado{
+   width: 20px; /*Largura*/
+   height: 14px; /*altura*/
+}
+.icone-colorido{
+   width: 24px; /*Largura*/
 }
 
+
+
+/*RODAPE*/
 footer{ /*seletor da tag footer/rodape*/
    background-color: #f2f2f2; /*cor de fundo*/
 }
-
 .caixa-rodape{
    display: flex;
    padding: 15px 30px;
@@ -40,16 +60,28 @@ footer{ /*seletor da tag footer/rodape*/
 .caixarodape--borda{
    border-bottom: 1px solid #dadce0;
 }
-
 .caixa-links{
    display: flex;
    gap: 30px; /*espaçamento entre os itens da div caixa-links*/
 }
-
-header{ /*cabeçalho*/
+ 
+/*cabeçalho*/
+header{
    display: flex;
    justify-content: flex-end; /*Horizontal,a direita no espaço disponível*/
    align-items: center; /*itens alinhados ao centro do espaço disponível*/
    gap: 15px; /*espaçamento entre os elementos dentro do header */
    padding: 10px 14px; /*espaçamento ao redor do header*/
+}
+.icone-produtos{
+    width: 24px;/*largura*/
+   fill: #444746; /*cor preenchimento*/
+}
+.botao-login{
+    background-color: #1a73e8;/*cor plano de fundo*/
+    color: white; /*cor do texto*/
+    padding: 13px 12px;/*espaçamento interno*/
+    font-weight: 500; /*peso da fonte*/
+    border-radius: 40px ;/*raio da borda(curvatura)*/
+
 }
